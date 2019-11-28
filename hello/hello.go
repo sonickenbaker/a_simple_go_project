@@ -1,9 +1,5 @@
 package hello
 
-import (
-	"fmt"
-)
-
-func SayHello(message string) {
-	fmt.Println("Hello" + message)
+func SayHello(message string) string {
+	return "Hello " + message
 }
